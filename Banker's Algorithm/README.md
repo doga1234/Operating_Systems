@@ -16,18 +16,17 @@ This repository contains an implementation of the Banker's algorithm, a resource
 
 ## Files
 
-- `bankers_algorithm.cpp`: Contains the implementation of the Banker's algorithm.
+- `os.c`: Contains the implementation of the Banker's algorithm.
 - `request.txt`: File containing resource requests from processes.
 - `resource.txt`: File containing information about available resources.
 - `allocations.txt`: File containing information about already allocated resources.
 - `output.txt`: Output file containing the results of the algorithm execution.
-- `makefile`: Makefile for compiling the C code.
 
 ## Usage
 
 1. Clone this repository to your local machine.
-2. Ensure you have a C++ compiler installed.
-3. Compile the `bankers_algorithm.cpp` file using your compiler.
+2. Ensure you have a C compiler installed.
+3. Compile the `os.c` file using your compiler.
 4. Run the compiled executable.
 5. Review the output in the `output.txt` file for the results of the algorithm execution.
 
